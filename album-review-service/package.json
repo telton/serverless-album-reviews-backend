@@ -1,0 +1,21 @@
+{
+  "name": "album-review-api",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "dependencies": {
+    "@middy/core": "^1.5.1",
+    "@middy/http-cors": "^1.5.1",
+    "aws-sdk": "^2.639.0",
+    "graphql": "^0.11.7",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-bundle": "^4.2.0",
+    "serverless-pseudo-parameters": "^2.5.0"
+  }
+}
